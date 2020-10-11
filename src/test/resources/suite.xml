@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Home Work 21" configfailurepolicy="continue" >
+    <parameter name="HW" value="Test two tasks"/>
+    <test name="Test: Home Work #21.1">
+        <classes>
+            <class name="LoginTest"/>
+        </classes>
+    </test>
+    <test name="Test: Home Work #21.2">
+        <classes>
+            <class name="SearchTest"/>
+        </classes>
+    </test>
+</suite>
